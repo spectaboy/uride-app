@@ -1,3 +1,5 @@
+import 'react-native-url-polyfill/auto'; // Keep polyfill first
+// Removed NativeWind StyleSheet import and setOutput call for v4
 import { registerRootComponent } from 'expo';
 
 import App from './App';
